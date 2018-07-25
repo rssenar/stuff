@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package internal;
+
+message Customer {
+    string Fname = 1;
+    string Lname = 2;
+}
+
+message Address {
+    string Address = 1;
+    string City = 2;
+    string State = 3;
+    string Zip = 4;
+}
